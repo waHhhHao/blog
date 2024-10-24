@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;花果山&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"花果山是一个神奇之地，山清水秀，灵气充沛，是孙悟空的出生地。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <node id="&quot;孙悟空&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"孙悟空是一只从仙石中诞生的石猴，后来成为齐天大圣，拥有非凡的智慧和力量，擅长七十二变和筋斗云等神通。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <node id="&quot;菩提祖师&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"菩提祖师是悟空的师父，见悟空资质非凡，收他为徒，传授他七十二变和筋斗云等神通。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <node id="&quot;天庭&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"天庭是天界的权威机构，由玉帝领导，负责管理天界和人间。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <node id="&quot;玉帝&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"玉帝是天庭的最高统治者，面对悟空的挑战，无奈封他为齐天大圣。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <node id="&quot;如来佛祖&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"如来佛祖是佛教的最高领袖，与悟空打赌，最终将悟空困在五指山下。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <node id="&quot;唐僧&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"唐僧是取经的僧人，路过五指山救出了悟空，悟空决定保护他西天取经。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <node id="&quot;五指山&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"五指山是如来佛祖困住悟空的地方，悟空在此被困五百年。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <node id="&quot;西天取经&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"西天取经是唐僧带领悟空等人前往西天取得真经的旅程，悟空在此过程中保护唐僧。"</data>
+      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </node>
+    <edge source="&quot;花果山&quot;" target="&quot;孙悟空&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"孙悟空出生在花果山，这里是他的故乡，他在这里度过了童年。"</data>
+      <data key="d5">"出生地,童年记忆"</data>
+      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </edge>
+    <edge source="&quot;孙悟空&quot;" target="&quot;菩提祖师&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"菩提祖师是孙悟空的师父，传授他七十二变和筋斗云等神通，对悟空的成长有重要影响。"</data>
+      <data key="d5">"师徒关系,传授法术"</data>
+      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </edge>
+    <edge source="&quot;孙悟空&quot;" target="&quot;天庭&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"孙悟空挑战天庭的权威，大闹天宫，与天兵天将展开了一场惊天动地的大战。"</data>
+      <data key="d5">"对抗,挑战权威"</data>
+      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </edge>
+    <edge source="&quot;孙悟空&quot;" target="&quot;玉帝&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"孙悟空挑战玉帝的权威，最终被封为齐天大圣，但并未因此满足。"</data>
+      <data key="d5">"对抗,封号"</data>
+      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </edge>
+    <edge source="&quot;孙悟空&quot;" target="&quot;如来佛祖&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"如来佛祖与孙悟空打赌，将悟空困在五指山下，悟空被困五百年。"</data>
+      <data key="d5">"对抗,困住"</data>
+      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </edge>
+    <edge source="&quot;孙悟空&quot;" target="&quot;唐僧&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"唐僧救出孙悟空，悟空决定保护唐僧西天取经，赎自己的罪过。"</data>
+      <data key="d5">"保护,赎罪"</data>
+      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </edge>
+    <edge source="&quot;孙悟空&quot;" target="&quot;五指山&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"孙悟空被如来佛祖困在五指山下，被困五百年。"</data>
+      <data key="d5">"被困,赎罪"</data>
+      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </edge>
+    <edge source="&quot;唐僧&quot;" target="&quot;西天取经&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"唐僧带领悟空等人前往西天取得真经，悟空在此过程中保护唐僧。"</data>
+      <data key="d5">"领导,保护"</data>
+      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+    </edge>
+  </graph>
+</graphml>

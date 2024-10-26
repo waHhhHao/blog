@@ -8,98 +8,1915 @@
   <key id="d1" for="node" attr.name="description" attr.type="string" />
   <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
   <graph edgedefault="undirected">
-    <node id="&quot;花果山&quot;">
-      <data key="d0">"GEO"</data>
-      <data key="d1">"花果山是一个神奇之地，山清水秀，灵气充沛，是孙悟空的出生地。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </node>
-    <node id="&quot;孙悟空&quot;">
-      <data key="d0">"PERSON"</data>
-      <data key="d1">"孙悟空是一只从仙石中诞生的石猴，后来成为齐天大圣，拥有非凡的智慧和力量，擅长七十二变和筋斗云等神通。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </node>
-    <node id="&quot;菩提祖师&quot;">
-      <data key="d0">"PERSON"</data>
-      <data key="d1">"菩提祖师是悟空的师父，见悟空资质非凡，收他为徒，传授他七十二变和筋斗云等神通。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </node>
-    <node id="&quot;天庭&quot;">
+    <node id="&quot;中国视神经脊髓炎谱系疾病诊断与治疗指南中国免疫学会神经免疫学分会 中华医学会神经病学分会神经免疫学组 中国医师协会神经内科分会神经免疫专业委员会&quot;">
       <data key="d0">"ORGANIZATION"</data>
-      <data key="d1">"天庭是天界的权威机构，由玉帝领导，负责管理天界和人间。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+      <data key="d1">"This is a collaborative organization involving multiple Chinese medical societies and associations focused on the diagnosis and treatment of neuromyelitis optica spectrum disorders (NMOSD)."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
     </node>
-    <node id="&quot;玉帝&quot;">
-      <data key="d0">"PERSON"</data>
-      <data key="d1">"玉帝是天庭的最高统治者，面对悟空的挑战，无奈封他为齐天大圣。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </node>
-    <node id="&quot;如来佛祖&quot;">
-      <data key="d0">"PERSON"</data>
-      <data key="d1">"如来佛祖是佛教的最高领袖，与悟空打赌，最终将悟空困在五指山下。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </node>
-    <node id="&quot;唐僧&quot;">
-      <data key="d0">"PERSON"</data>
-      <data key="d1">"唐僧是取经的僧人，路过五指山救出了悟空，悟空决定保护他西天取经。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </node>
-    <node id="&quot;五指山&quot;">
-      <data key="d0">"GEO"</data>
-      <data key="d1">"五指山是如来佛祖困住悟空的地方，悟空在此被困五百年。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </node>
-    <node id="&quot;西天取经&quot;">
+    <node id="&quot;视神经脊髓炎(NEUROMYELITIS OPTICA, NMO)&quot;">
       <data key="d0">"EVENT"</data>
-      <data key="d1">"西天取经是唐僧带领悟空等人前往西天取得真经的旅程，悟空在此过程中保护唐僧。"</data>
-      <data key="d2">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+      <data key="d1">"NMO is an immune-mediated inflammatory demyelinating disease primarily affecting the optic nerve and spinal cord, characterized by severe optic neuritis and longitudinally extensive transverse myelitis."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
     </node>
-    <edge source="&quot;花果山&quot;" target="&quot;孙悟空&quot;">
+    <node id="&quot;视神经脊髓炎谱系疾病(NEUROMYELITIS OPTICA SPECTRUM DISORDERS, NMOSD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"NMOSD is a broader category of diseases that includes NMO and other related conditions, characterized by immune-mediated inflammatory demyelinating processes in the central nervous system (CNS)."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </node>
+    <node id="&quot;AQP4-IGG (水通道蛋白4抗体)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"AQP4-IgG is a highly specific antibody associated with NMOSD, which plays a crucial role in the pathogenesis and diagnosis of the disease."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </node>
+    <node id="&quot;多发性硬化(MULTIPLE SCLEROSIS, MS)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"MS is a distinct disease from NMO, characterized by immune-mediated demyelination in the central nervous system (CNS)."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </node>
+    <node id="&quot;国际NMO诊断小组(INTERNATIONAL PANEL ON NMO DIAGNOSIS, IPND)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"IPND is an international group that developed new diagnostic criteria for NMOSD, integrating NMO into the broader NMOSD category."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </node>
+    <node id="&quot;WINGERCHUK等&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Wingerchuk and colleagues proposed the term NMOSD to encompass a broader range of related diseases in 2007."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </node>
+    <node id="&quot;亚洲、拉丁美洲、非洲、西班牙裔和美国原住民&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"These are regions and ethnic groups where NMOSD is more prevalent compared to white populations."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </node>
+    <node id="&quot;干燥综合征、系统性红斑狼疮、桥本氏病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"These are autoimmune diseases that often co-occur with NMOSD, indicating a common underlying immune mechanism."</data>
+      <data key="d2">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </node>
+    <node id="&quot;NMOSD&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"NMOSD (Neuromyelitis Optica Spectrum Disorders) is a broader category of conditions that includes NMO and other related disorders. It has a wider clinical spectrum and includes non-opticospinal manifestations."&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) is a group of autoimmune diseases characterized by high recurrence and high disability rates. It often co-occurs with other autoimmune diseases such as Sjögren's syndrome, systemic lupus erythematosus, and Hashimoto's disease."&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) is a group of autoimmune disorders characterized by inflammation of the optic nerve and spinal cord, with specific clinical and MRI features."&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) 是一种神经系统疾病，表现为多种临床症候和影像学特征。"&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) is a group of autoimmune disorders affecting the optic nerves and spinal cord, characterized by various visual and neurological symptoms."&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) is a neurological condition characterized by inflammation of the optic nerves and spinal cord. The text discusses the treatment of NMOSD, including acute phase treatment, sequential treatment, symptomatic treatment, and rehabilitation."&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) is a group of inflammatory disorders affecting the optic nerve and spinal cord."&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) is a neurological disease characterized by inflammation and demyelination of the optic nerves and spinal cord."&lt;SEP&gt;"NMOSD（Neuromyelitis Optica Spectrum Disorders）是一种神经系统疾病，表现为神经功能障碍和复发。"&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) 是一种神经系统疾病，表现为反复发作和神经功能障碍。环磷酰胺和米托蒽醌等药物用于治疗NMOSD。"&lt;SEP&gt;"NMOSD (Neuromyelitis Optica Spectrum Disorders) is a neurological condition characterized by recurrent attacks on the optic nerves and spinal cord, leading to vision loss and other symptoms."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1&lt;SEP&gt;chunk-1508a751986aeefee59f14762ad947b8&lt;SEP&gt;chunk-d760189ca87cf4816e2d4c9aaa4ad24c&lt;SEP&gt;chunk-d542d24224ab1496d411addcf36c956e&lt;SEP&gt;chunk-c7e6004f5252810899e285bab15d921b&lt;SEP&gt;chunk-64c89732b9f2941c9331e3813eeb9803&lt;SEP&gt;chunk-4729f02f7104a27cc56e83a3aba8a1a4&lt;SEP&gt;chunk-e50d60a84829b64d6b34c785f4f1153e&lt;SEP&gt;chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-8ac7464d1b9ccfb3319afbae828cc7e1&lt;SEP&gt;chunk-61b576d65721d15b39a0c520f28e6ee6</data>
+    </node>
+    <node id="&quot;SJÖGREN'S SYNDROME&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Sjögren's Syndrome is an autoimmune disease that often co-occurs with NMOSD, characterized by dry eyes and mouth."</data>
+      <data key="d2">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </node>
+    <node id="&quot;SYSTEMIC LUPUS ERYTHEMATOSUS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Systemic Lupus Erythematosus is an autoimmune disease that often co-occurs with NMOSD, affecting multiple organs and systems."</data>
+      <data key="d2">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </node>
+    <node id="&quot;HASHIMOTO'S DISEASE&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Hashimoto's Disease is an autoimmune disease that often co-occurs with NMOSD, characterized by chronic inflammation of the thyroid gland."</data>
+      <data key="d2">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </node>
+    <node id="&quot;VISION IMPAIRMENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Vision Impairment is a common outcome for NMOSD patients, often resulting from the disease's high recurrence and disability rates."</data>
+      <data key="d2">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </node>
+    <node id="&quot;MOTOR FUNCTION IMPAIRMENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Motor Function Impairment is a common outcome for NMOSD patients, often resulting from the disease's high recurrence and disability rates."</data>
+      <data key="d2">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </node>
+    <node id="&quot;URINARY AND BOWEL DYSFUNCTION&quot;">
+      <data key="d2">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+      <data key="d1">"NMOSD frequently leads to Urinary and Bowel Dysfunction due to its high recurrence and disability rates."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ON&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"ON (Optic Neuritis) is a clinical syndrome where the optic nerve is inflamed, often a core clinical feature of NMOSD."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </node>
+    <node id="&quot;急性脊髓炎&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性脊髓炎 (Acute Myelitis) is a clinical syndrome where the spinal cord is inflamed, often a core clinical feature of NMOSD."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </node>
+    <node id="&quot;延髓最后区综合征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"延髓最后区综合征 (Medulla Oblongata Syndrome) is a clinical syndrome affecting the medulla oblongata, often a core clinical feature of NMOSD."&lt;SEP&gt;"延髓最后区综合征是NMOSD的一种表现形式，主要症状包括顽固性呃逆、恶心、呕吐等。"</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e&lt;SEP&gt;chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;德维克&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"德维克 (Devic) is a historical figure who, along with his student 高尔特 (Gault), described a group of cases with severe optic nerve and spinal cord involvement, leading to the naming of Devic's disease."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </node>
+    <node id="&quot;高尔特&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"高尔特 (Gault) is a historical figure, a student of 德维克 (Devic), who contributed to the description of cases with severe optic nerve and spinal cord involvement."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </node>
+    <node id="&quot;NMO&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"NMO (Neuromyelitis Optica) is a neurological condition characterized by inflammation of the optic nerves and spinal cord. It has been updated and expanded over the past century, especially with the discovery of AQP4-IgG."&lt;SEP&gt;"NMO (Neuromyelitis Optica) is a specific form of NMOSD characterized by lesions primarily in the optic nerve and spinal cord, historically described by Devic and Gault."&lt;SEP&gt;"NMO (Neuromyelitis Optica) is a specific type of NMOSD characterized by inflammation of the optic nerve and spinal cord."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e&lt;SEP&gt;chunk-3f25f31870a5e0c1064ecb45bba89ae1&lt;SEP&gt;chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;R‐ON&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"r‐ON (Recurrent Optic Neuritis) is a form of ON where the optic nerve is repeatedly inflamed, a clinical feature of NMOSD."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </node>
+    <node id="&quot;TM&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"TM (Transverse Myelitis) is a clinical syndrome where the spinal cord is inflamed, often a core clinical feature of NMOSD."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </node>
+    <node id="&quot;LETM&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"LETM (Longitudinal Extensive Transverse Myelitis) is a form of TM where the spinal cord is extensively and longitudinally inflamed, a clinical feature of NMOSD."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </node>
+    <node id="&quot;R‐LETM&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"r‐LETM (Recurrent Longitudinal Extensive Transverse Myelitis) is a form of LETM where the spinal cord is repeatedly and extensively inflamed, a clinical feature of NMOSD."</data>
+      <data key="d2">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </node>
+    <node id="&quot;中国神经免疫学和神经病学杂志&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"中国神经免疫学和神经病学杂志是一本学术期刊，发表关于神经免疫学和神经病学的研究和临床观察。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;脊髓病变&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脊髓病变是NMOSD的一种表现形式，可能与延髓最后区综合征相连续。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;脑干及第四脑室周边症候&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脑干及第四脑室周边症候是NMOSD的一种表现形式，主要症状包括头晕、复视、共济失调等。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;下丘脑症候&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"下丘脑症候是NMOSD的一种表现形式，主要症状包括困倦、发作性睡病样表现、顽固性低钠血症、体温调节障碍等。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;大脑半球白质或胼胝体症候&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"大脑半球白质或胼胝体症候是NMOSD的一种表现形式，主要症状包括淡漠、反应迟缓、认知水平下降、头痛等。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;AQP4‐IGG阳性&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"AQP4‐IgG阳性是指患者体内存在AQP4‐IgG抗体，与NMOSD的某些表现形式相关。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;风湿相关自身免疫性疾病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"风湿相关自身免疫性疾病是一类疾病，包括干燥综合征、系统性红斑狼疮、桥本氏病等，可能与NMOSD合并存在。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;ANA&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"ANA (抗核抗体) 是一种自身免疫性相关抗体，可能与NMOSD合并存在。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;SSA&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"SSA (抗SSA抗体) 是一种自身免疫性相关抗体，可能与NMOSD合并存在。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;SSB&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"SSB (抗SSB抗体) 是一种自身免疫性相关抗体，可能与NMOSD合并存在。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;脑脊液(CSF)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脑脊液(CSF) 是NMOSD的实验室检查项目之一，用于评估患者的炎症和免疫反应。"</data>
+      <data key="d2">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </node>
+    <node id="&quot;AQP4‐IGG&quot;">
+      <data key="d0">"BIOMARKER"</data>
+      <data key="d1">"AQP4‐IgG is a biomarker used to identify patients with NMOSD, particularly those who are positive for this marker."&lt;SEP&gt;"AQP4‐IgG is a specific biomarker for Neuromyelitis Optica (NMO), with high specificity and sensitivity. It is detected using methods like CBA and ELISA."</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;NEUROMYELITIS OPTICA (NMO)&quot;">
+      <data key="d0">"DISEASE"</data>
+      <data key="d1">"Neuromyelitis Optica (NMO) is a neurological disorder characterized by inflammation and demyelination of the optic nerves and spinal cord."</data>
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;CELL-BASED TRANSFECTION IMMUNOFLUORESCENCE ASSAY (CBA)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"CBA is a highly specific and sensitive method for detecting AQP4‐IgG, with a specificity of over 90% and sensitivity of 70%."</data>
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;ENZYME-LINKED IMMUNOSORBENT ASSAY (ELISA)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ELISA is a sensitive method for detecting AQP4‐IgG, but it can produce false positives and has some controversy regarding its use for predicting disease progression and recurrence."</data>
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;ANTI-NUCLEAR ANTIBODIES (ANAS)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"ANAs are autoantibodies that can be present in the serum of patients with NMOSD, supporting the diagnosis."</data>
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;ANTI-SSA ANTIBODIES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Anti-SSA antibodies are autoantibodies that can be present in the serum of patients with NMOSD, supporting the diagnosis."</data>
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;ANTI-SSB ANTIBODIES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Anti-SSB antibodies are autoantibodies that can be present in the serum of patients with NMOSD, supporting the diagnosis."</data>
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;ANTI-THYROID ANTIBODIES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Anti-thyroid antibodies are autoantibodies that can be present in the serum of patients with NMOSD, supporting the diagnosis."</data>
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;MYELIN OLIGODENDROCYTE GLYCOPROTEIN (MOG) ANTIBODIES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"MOG antibodies are found in a significant portion of AQP4‐IgG negative NMOSD patients, indicating a different clinical presentation and course."</data>
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </node>
+    <node id="&quot;N-METHYL-D-ASPARTATE RECEPTOR ANTIBODIES&quot;">
+      <data key="d2">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+      <data key="d1">"N-Methyl-D-Aspartate Receptor Antibodies can be present in patients with NMOSD, particularly in those with tumors, indicating a complex relationship."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;WINGERCHUK&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Wingerchuk is a researcher who, along with others, developed the 2006 NMO diagnostic criteria."</data>
+      <data key="d2">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </node>
+    <node id="&quot;INTERNATIONAL NMO DIAGNOSIS PANEL (IPND)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The International NMO Diagnosis Panel (IPND) is a group of experts who developed the 2015 NMOSD diagnostic criteria."</data>
+      <data key="d2">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </node>
+    <node id="&quot;NMO (NEUROMYELITIS OPTICA)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"NMO (Neuromyelitis Optica) is a specific form of NMOSD, characterized by severe inflammation of the optic nerves and spinal cord."</data>
+      <data key="d2">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </node>
+    <node id="&quot;AQP4-IGG&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"AQP4-IgG is an antibody that has been identified as a biomarker for NMO and NMOSD, significantly advancing the understanding and diagnosis of these conditions."&lt;SEP&gt;"AQP4-IgG is an autoantibody that is a key marker for diagnosing NMOSD, particularly in distinguishing between AQP4-IgG positive and negative cases."&lt;SEP&gt;"AQP4-IgG是一种抗体，用于诊断NMOSD，但任何化验检查都存在一定的假阳性和假阴性情况。"</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1&lt;SEP&gt;chunk-1508a751986aeefee59f14762ad947b8&lt;SEP&gt;chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;MS (MULTIPLE SCLEROSIS)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"MS (Multiple Sclerosis) is a different autoimmune disorder that affects the central nervous system, often requiring exclusion in NMOSD diagnosis."</data>
+      <data key="d2">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </node>
+    <node id="&quot;OCT (OPTICAL COHERENCE TOMOGRAPHY)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"OCT is a diagnostic tool used to measure the thickness of the retinal nerve fiber layer, which is often affected in NMOSD patients."</data>
+      <data key="d2">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </node>
+    <node id="&quot;VISUAL EVOKED POTENTIALS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Visual Evoked Potentials is a diagnostic test that measures the electrical activity in the visual pathways, often showing abnormalities in NMOSD patients."</data>
+      <data key="d2">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </node>
+    <node id="&quot;MRI (MAGNETIC RESONANCE IMAGING)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"MRI is a diagnostic imaging technique used to identify lesions in the spinal cord and brain, which are important for diagnosing NMOSD."</data>
+      <data key="d2">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </node>
+    <node id="&quot;2006年NMO诊断标准&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"2006年NMO诊断标准是用于诊断视神经脊髓炎的一种标准，存在一定的诊断特异度及敏感度问题。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;2015年NMOSD诊断标准&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"2015年NMOSD诊断标准是用于诊断视神经脊髓炎谱系疾病的一种标准，强调了AQP4-IgG的诊断特异性，但仍然存在假阳性和假阴性的情况。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;MS(多发性硬化症)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"多发性硬化症是一种炎性脱髓鞘病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;急性播散性脑脊髓炎&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性播散性脑脊髓炎是一种炎性脱髓鞘病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;假瘤型脱髓鞘&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"假瘤型脱髓鞘是一种炎性脱髓鞘病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;系统性红斑狼疮&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"系统性红斑狼疮是一种系统性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;白塞病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"白塞病是一种系统性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;干燥综合征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"干燥综合征是一种系统性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;结节病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"结节病是一种系统性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;系统性血管炎&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"系统性血管炎是一种系统性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;缺血性视神经病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"缺血性视神经病是一种血管性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;脊髓硬脊膜动静脉瘘&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脊髓硬脊膜动静脉瘘是一种血管性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;脊髓血管畸形&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脊髓血管畸形是一种血管性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;亚急性坏死性脊髓病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"亚急性坏死性脊髓病是一种血管性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;结核&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"结核是一种感染性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;艾滋病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"艾滋病是一种感染性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;梅毒&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"梅毒是一种感染性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;布氏杆菌感染&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"布氏杆菌感染是一种感染性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;热带痉挛性截瘫&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"热带痉挛性截瘫是一种感染性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;中毒性视神经病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"中毒性视神经病是一种代谢中毒性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;亚急性联合变性&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"亚急性联合变性是一种代谢中毒性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;肝性脊髓病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"肝性脊髓病是一种代谢中毒性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;WERNICK脑病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Wernick脑病是一种代谢中毒性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;缺血缺氧性脑病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"缺血缺氧性脑病是一种代谢中毒性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;LEBER视神经病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Leber视神经病是一种遗传性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;遗传性痉挛性截瘫&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"遗传性痉挛性截瘫是一种遗传性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;肾上腺脑白质营养不良&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"肾上腺脑白质营养不良是一种遗传性疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;脊髓胶质瘤&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脊髓胶质瘤是一种肿瘤及副肿瘤相关疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;室管膜瘤&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"室管膜瘤是一种肿瘤及副肿瘤相关疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;脊髓副肿瘤综合征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脊髓副肿瘤综合征是一种肿瘤及副肿瘤相关疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;颅底畸形&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"颅底畸形是一种其他疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;脊髓压迫症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脊髓压迫症是一种其他疾病，需要与NMOSD进行鉴别诊断。"</data>
+      <data key="d2">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </node>
+    <node id="&quot;糖皮质激素 (CORTICOSTEROIDS)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"Corticosteroids, specifically methylprednisolone and prednisone, are used in the acute phase treatment of NMOSD to reduce inflammation and improve neurological function. The treatment involves high-dose intravenous administration followed by a gradual tapering to a maintenance dose."</data>
+      <data key="d2">chunk-d760189ca87cf4816e2d4c9aaa4ad24c</data>
+    </node>
+    <node id="&quot;甲泼尼龙 (METHYLPREDNISOLONE)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"Methylprednisolone is a corticosteroid used in the acute phase treatment of NMOSD. It is administered intravenously in high doses to rapidly reduce inflammation and improve neurological function."</data>
+      <data key="d2">chunk-d760189ca87cf4816e2d4c9aaa4ad24c</data>
+    </node>
+    <node id="&quot;泼尼松 (PREDNISONE)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"Prednisone is a corticosteroid used in the maintenance phase of NMOSD treatment. It is administered orally in gradually decreasing doses to prevent relapse and manage long-term symptoms."&lt;SEP&gt;"泼尼松 is a corticosteroid used in low doses to maintain treatment and reduce NMOSD recurrence, often in combination with immunosuppressants."</data>
+      <data key="d2">chunk-d760189ca87cf4816e2d4c9aaa4ad24c&lt;SEP&gt;chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;免疫抑制剂 (IMMUNOSUPPRESSANTS)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"Immunosuppressants are used in the sequential treatment of NMOSD to prevent relapse and manage long-term symptoms. They are often used in conjunction with corticosteroids."&lt;SEP&gt;"免疫抑制剂 are medications used to suppress the immune system, which can help reduce NMOSD recurrence but may have long-term risks such as increased susceptibility to infections and cancer."</data>
+      <data key="d2">chunk-d760189ca87cf4816e2d4c9aaa4ad24c&lt;SEP&gt;chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;MS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"MS (Multiple Sclerosis) is a chronic inflammatory disease of the central nervous system."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;AQP‐IGG&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"AQP‐IgG (Aquaporin-4 Antibody) is an antibody associated with NMOSD and NMO, indicating the presence of these conditions."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;CSF&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CSF (Cerebrospinal Fluid) is the fluid surrounding the brain and spinal cord, often analyzed in the diagnosis of NMOSD and NMO."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;大剂量激素治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"High-dose hormone therapy is a treatment method used for NMOSD and NMO, which can cause side effects such as arrhythmia."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;心律失常&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Arrhythmia is a potential side effect of high-dose hormone therapy, requiring careful monitoring and management."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;质子泵抑制剂&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Proton pump inhibitors are used to prevent upper gastrointestinal bleeding, a common side effect of high-dose hormone therapy."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;卒中预防&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Stroke prevention is recommended for older patients or those with stroke risk factors during high-dose hormone therapy."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;电解质紊乱&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Electrolyte imbalance is a common side effect of high-dose hormone therapy."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;血糖、血压、血脂异常&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Abnormal blood sugar, blood pressure, and lipid levels are common side effects of high-dose hormone therapy."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;上消化道出血&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Upper gastrointestinal bleeding is a common side effect of high-dose hormone therapy."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;骨质疏松、股骨头坏死&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Osteoporosis and avascular necrosis of the femoral head are potential complications of long-term high-dose hormone therapy."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;血浆置换 (PE)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Plasma exchange (PE) is a treatment method used for NMOSD, particularly in patients who do not respond well to high-dose methylprednisolone."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;静脉注射大剂量免疫球蛋白 (IVIG)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Intravenous immunoglobulin (IVIg) is a treatment method used for NMOSD, particularly in patients who do not respond well to high-dose methylprednisolone."</data>
+      <data key="d2">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </node>
+    <node id="&quot;环磷酰胺&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"环磷酰胺 is a second-line drug used in the treatment of NMOSD, particularly for patients who cannot undergo IVIg or PE treatment."&lt;SEP&gt;"环磷酰胺是一种药物，用于减少NMOSD复发和减缓神经功能障碍进展。它作为二线药物，适用于其他治疗无效的情况。推荐用法包括600mg静脉滴注，1次/2周，连续5个月；600mg静脉滴注，每个月1次，共12个月。年总负荷剂量不超过10~15g。主要副作用包括恶心、呕吐、感染、脱发、性腺抑制、月经不调、停经和出血性膀胱炎。预防出血性膀胱炎可同时应用美司钠(Uromitexan)注射，恶心和呕吐可适当应用止吐药对抗。"&lt;SEP&gt;"环磷酰胺不推荐在妊娠前期、妊娠和哺乳期使用，具有C级推荐，除非孕妇具有生命危险或器官功能衰竭风险。"</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-08e2af106947799f5d0790038b946347&lt;SEP&gt;chunk-61b576d65721d15b39a0c520f28e6ee6</data>
+    </node>
+    <node id="&quot;硫唑嘌呤&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"硫唑嘌呤 is a first-line drug used in the treatment of NMOSD, effective in reducing recurrence and slowing the progression of neurological dysfunction."&lt;SEP&gt;"硫唑嘌呤是一种药物，用于治疗NMOSD。吗替麦考酚酯起效较硫唑嘌呤快，副作用较少。"&lt;SEP&gt;"硫唑嘌呤推荐在妊娠期使用，剂量需≤2mg/(kg・d)，具有B级推荐，哺乳期使用具有D级推荐。"</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-08e2af106947799f5d0790038b946347&lt;SEP&gt;chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </node>
+    <node id="&quot;吗替麦考酚酯&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"吗替麦考酚酯 is a first-line drug used in the treatment of NMOSD."&lt;SEP&gt;"吗替麦考酚酯是一种药物，用于减少NMOSD的复发和减缓神经功能障碍进展。推荐用法为1~1.5g/d，口服。其副作用较少，主要为胃肠道症状和增加感染机会。"</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </node>
+    <node id="&quot;甲氨蝶呤&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"甲氨蝶呤 is a first-line drug used in the treatment of NMOSD."&lt;SEP&gt;"甲氨蝶呤在妊娠期应避免使用，受孕前3个月应停用，哺乳期不推荐使用。"</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-08e2af106947799f5d0790038b946347</data>
+    </node>
+    <node id="&quot;利妥昔单抗 (RITUXIMAB)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"利妥昔单抗 (rituximab) is a first-line drug used in the treatment of NMOSD."</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </node>
+    <node id="&quot;他克莫司&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"他克莫司 is a second-line drug used in the treatment of NMOSD."&lt;SEP&gt;"他克莫司推荐在妊娠期使用最低有效剂量，具有D级推荐，哺乳期使用具有D级推荐。"</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-08e2af106947799f5d0790038b946347</data>
+    </node>
+    <node id="&quot;米托蒽醌&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"米托蒽醌 is a second-line drug used in the treatment of NMOSD."&lt;SEP&gt;"米托蒽醌是一种药物，用于减少NMOSD复发。它作为二线药物，适用于反复发作而其他方法治疗效果不佳的情况。推荐用法包括按体表面积(10~12)mg/m2静脉滴注，每个月1次，共3个月，后每3个月1次再用3次，总量不超过100mg/m2。主要副作用包括心脏毒性和治疗相关的白血病，使用时应注意监测其心脏毒性。"</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-61b576d65721d15b39a0c520f28e6ee6</data>
+    </node>
+    <node id="&quot;IVIG&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"IVIg (Intravenous Immunoglobulin) is a treatment used in the prevention of NMOSD, particularly for patients who cannot use immunosuppressants."</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </node>
+    <node id="&quot;PE&quot;">
+      <data key="d0">"TREATMENT"</data>
+      <data key="d1">"PE (Plasma Exchange) is a treatment used in the prevention of NMOSD, particularly for patients who cannot use immunosuppressants."</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </node>
+    <node id="&quot;单时相及多时相NMOSD&quot;">
+      <data key="d0">"DISEASE_TYPE"</data>
+      <data key="d1">"单时相及多时相NMOSD refers to the different phases of NMOSD, with single-phase and multi-phase types."</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </node>
+    <node id="&quot;儿童及妊娠期患者&quot;">
+      <data key="d0">"PATIENT_GROUP"</data>
+      <data key="d1">"儿童及妊娠期患者 refers to a specific group of patients, including children and pregnant women, who may require special considerations in NMOSD treatment."</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </node>
+    <node id="&quot;硫代嘌呤甲基转移酶 (TMTP)&quot;">
+      <data key="d0">"ENZYME"</data>
+      <data key="d1">"硫代嘌呤甲基转移酶 (TMTP) is an enzyme that can be tested to avoid severe adverse reactions to硫唑嘌呤."</data>
+      <data key="d2">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </node>
+    <node id="&quot;利妥昔单抗&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"利妥昔单抗不建议在妊娠前期、妊娠和哺乳期使用，因为胎儿的安全性文献不足，理论上存在风险。"&lt;SEP&gt;"利妥昔单抗是一种针对B细胞表面CD20的单克隆抗体，用于减少NMOSD的复发和减缓神经功能障碍进展。推荐用法为按体表面积375mg/m2静脉滴注，每周1次，连用4周；或1000mg静脉滴注，共用2次（间隔2周）。国内治疗经验表明，中等或小剂量应用对预防NMOSD仍有效，且副反应小，花费相对较少。"</data>
+      <data key="d2">chunk-08e2af106947799f5d0790038b946347&lt;SEP&gt;chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </node>
+    <node id="&quot;B细胞&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"B细胞是一种免疫细胞，利妥昔单抗通过消减B细胞来减少NMOSD的复发和减缓神经功能障碍进展。"</data>
+      <data key="d2">chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </node>
+    <node id="&quot;进行性多灶性白质脑病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"进行性多灶性白质脑病是一种严重的神经系统疾病，有文献报道在使用利妥昔单抗治疗肿瘤或类风湿关节炎时发生，但大多数病例合用了其他免疫抑制剂。"</data>
+      <data key="d2">chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </node>
+    <node id="&quot;美司钠 (UROMITEXAN)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"美司钠 (Uromitexan) 是一种药物，用于预防环磷酰胺引起的出血性膀胱炎。"</data>
+      <data key="d2">chunk-61b576d65721d15b39a0c520f28e6ee6</data>
+    </node>
+    <node id="&quot;甲氨蝶呤 (METHOTREXATE)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"甲氨蝶呤 is an immunosuppressant that can be used alone or in combination with 泼尼松 to reduce NMOSD recurrence and functional impairment. It is well-tolerated, affordable, and suitable for patients who cannot tolerate other immunosuppressants."</data>
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;IVIG (INTRAVENOUS IMMUNOGLOBULIN)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"IVIg is used in intermittent low doses to reduce NMOSD recurrence, but its effectiveness is based on open clinical trials, and more robust studies are needed."</data>
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;环孢素A (CYCLOSPORINE A)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"环孢素A is an immunosuppressant recommended at a dose of 2-3 mg/kg/day, administered twice daily, with dose adjustments based on blood levels. It requires monitoring for renal toxicity."</data>
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;Β 干扰素 (INTERFERON BETA)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"β 干扰素 is a treatment for multiple sclerosis (MS) but can worsen NMOSD symptoms."</data>
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;芬戈莫德 (FINGOLIMOD)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"芬戈莫德 is a treatment for MS but can exacerbate NMOSD symptoms."</data>
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;那他珠单抗 (NATALIZUMAB)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"那他珠单抗 is a treatment for MS but can worsen NMOSD symptoms."</data>
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;妊娠期 (PREGNANCY)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"妊娠期 refers to the period of pregnancy, during which NMOSD patients have a similar risk of recurrence as non-pregnant periods but a higher risk postpartum. Immunosuppressants can have adverse effects on the fetus or newborn."</data>
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;生育期 (REPRODUCTIVE AGE)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"生育期 refers to the reproductive age period, during which the use of immunosuppressants in both male and female patients can have significant risks for the fetus or newborn."</data>
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </node>
+    <node id="&quot;泼尼松&quot;">
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+      <data key="d1">"泼尼松 is used in low doses to maintain treatment and reduce NMOSD recurrence, often in combination with other immunosuppressants."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;环孢素A&quot;">
+      <data key="d2">chunk-08e2af106947799f5d0790038b946347&lt;SEP&gt;chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+      <data key="d1">"环孢素A is recommended at a specific dose to reduce NMOSD recurrence, with careful monitoring for renal toxicity."&lt;SEP&gt;"环孢素A推荐在妊娠期使用最低有效剂量，具有B级推荐，哺乳期使用具有D级推荐。"</data>
+      <data key="d0">"DRUG"</data>
+    </node>
+    <node id="&quot;Β 干扰素&quot;">
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+      <data key="d1">"β 干扰素, a treatment for MS, can worsen NMOSD symptoms, highlighting the need for caution in its use."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;芬戈莫德&quot;">
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+      <data key="d1">"芬戈莫德, a treatment for MS, can exacerbate NMOSD symptoms, emphasizing the need for careful selection of treatments."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;那他珠单抗&quot;">
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+      <data key="d1">"那他珠单抗, a treatment for MS, can worsen NMOSD symptoms, underlining the importance of avoiding certain MS treatments in NMOSD patients."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;免疫抑制剂&quot;">
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+      <data key="d1">"免疫抑制剂 are used to reduce NMOSD recurrence but may have long-term risks such as increased susceptibility to infections and cancer, requiring careful consideration."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;妊娠期&quot;">
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+      <data key="d1">"NMOSD patients have a similar risk of recurrence during pregnancy as non-pregnant periods, but a higher risk postpartum, necessitating continued immunosuppressive treatment."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;生育期&quot;">
+      <data key="d2">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+      <data key="d1">"The use of immunosuppressants in reproductive age patients, both male and female, can have significant risks for the fetus or newborn, requiring careful management."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;泼尼松龙&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"泼尼松龙是一种激素，推荐在妊娠和哺乳期使用，具有A级推荐。"</data>
+      <data key="d2">chunk-08e2af106947799f5d0790038b946347</data>
+    </node>
+    <node id="&quot;甲泼尼松龙&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"甲泼尼松龙是一种激素，胎盘转运率与泼尼松龙相似，产生等效抗炎作用所需剂量为泼尼松龙的80%，推荐在妊娠和哺乳期使用。"</data>
+      <data key="d2">chunk-08e2af106947799f5d0790038b946347</data>
+    </node>
+    <node id="&quot;IVIG (丙种球蛋白)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"IVIg (丙种球蛋白)推荐在妊娠期使用，具有A级推荐，哺乳期使用具有D级推荐。"</data>
+      <data key="d2">chunk-08e2af106947799f5d0790038b946347</data>
+    </node>
+    <node id="&quot;麦考酚酸酯&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"麦考酚酸酯禁忌在妊娠期间使用，计划怀孕前至少6周应停用，哺乳期不建议使用。"</data>
+      <data key="d2">chunk-08e2af106947799f5d0790038b946347</data>
+    </node>
+    <node id="&quot;卡马西平&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"卡马西平是一种用于治疗痛性痉挛的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;加巴喷汀&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"加巴喷汀是一种用于治疗痛性痉挛的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;普瑞巴林&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"普瑞巴林是一种用于治疗痛性痉挛和慢性疼痛的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;巴氯芬&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"巴氯芬是一种用于治疗痛性痉挛和顽固性呃逆的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;阿米替林&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"阿米替林是一种用于治疗慢性疼痛和感觉异常的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;选择性5‐羟色胺再摄取抑制剂 (SSRI)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"SSRI是一种用于治疗慢性疼痛、感觉异常、抑郁焦虑的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;去甲肾上腺素再摄取抑制剂 (SNRI)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"SNRI是一种用于治疗慢性疼痛、感觉异常、抑郁焦虑的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;去甲肾上腺素能与特异性5‐羟色胺能抗抑郁药物 (NASSA)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"NaSSA是一种用于治疗慢性疼痛、感觉异常、抑郁焦虑的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;莫达非尼 (MODAFINIL)&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"莫达非尼是一种用于治疗乏力和疲劳的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;金刚烷胺&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"金刚烷胺是一种用于治疗乏力和疲劳的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;盐酸苯海索&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"盐酸苯海索是一种用于治疗震颤的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;盐酸阿罗洛尔&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"盐酸阿罗洛尔是一种用于治疗震颤的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;丙咪嗪&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"丙咪嗪是一种用于治疗尿失禁的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;奥昔布宁&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"奥昔布宁是一种用于治疗尿失禁的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;哌唑嗪&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"哌唑嗪是一种用于治疗尿失禁的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;盐酸坦索罗辛&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"盐酸坦索罗辛是一种用于治疗尿失禁的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;缓泻药&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"缓泻药是一种用于治疗便秘的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;肉毒毒素A&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"肉毒毒素A是一种用于治疗下肢痉挛性肌张力增高的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;胆碱酯酶抑制剂&quot;">
+      <data key="d0">"DRUG"</data>
+      <data key="d1">"胆碱酯酶抑制剂是一种用于治疗认知障碍的药物。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;NMOSD的康复治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"NMOSD的康复治疗是指对伴有肢体、吞咽等功能障碍的患者进行的康复训练。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;专业医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"专业医生是指负责指导患者进行功能康复训练的医疗人员。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;患者及亲属&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患者及亲属是指接受治疗和宣教指导的个体。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;医务人员&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"医务人员是指提供医疗和宣教指导的医疗工作者。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;遗传、婚姻、妊娠、饮食、心理及用药等生活的各个方面&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这些方面是指医务人员在患者生活中提供的合理建议。"</data>
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </node>
+    <node id="&quot;痛性痉挛&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"巴氯芬用于治疗痛性痉挛，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;顽固性呃逆&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"巴氯芬用于治疗顽固性呃逆，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;慢性疼痛&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"阿米替林用于治疗慢性疼痛，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;感觉异常&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"阿米替林用于治疗感觉异常，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SSRI&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"SSRI用于治疗慢性疼痛，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;抑郁焦虑&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"SSRI用于治疗抑郁焦虑，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SNRI&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"SNRI用于治疗慢性疼痛，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;NASSA&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"NaSSA用于治疗慢性疼痛，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;乏力、疲劳&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"莫达非尼用于治疗乏力和疲劳，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;震颤&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"盐酸苯海索用于治疗震颤，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;尿失禁&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"丙咪嗪用于治疗尿失禁，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;便秘&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"缓泻药用于治疗便秘，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;下肢痉挛性肌张力增高&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"肉毒毒素A用于治疗下肢痉挛性肌张力增高，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;认知障碍&quot;">
+      <data key="d2">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+      <data key="d1">"胆碱酯酶抑制剂用于治疗认知障碍，是该症状的常用药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;天津市环湖医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Tianjin Huanhu Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;华中科技大学同济医学院附属同济医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;上海瑞金医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Ruijin Hospital, Shanghai is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;复旦大学附属华山医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Huashan Hospital, Fudan University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;宁夏医科大学总医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Ningxia Medical University General Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;山东大学附属千佛山医院(山东省千佛山医院)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Qianfoshan Hospital, Shandong University (Shandong Qianfoshan Hospital) is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;广州医科大学附属第二医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Guangzhou Medical University Second Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;北京大学第一医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Peking University First Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;河北医科大学第二医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Hebei Medical University Second Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;中山大学附属第三医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Third Affiliated Hospital of Sun Yat-sen University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;北京解放军总医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"PLA General Hospital, Beijing is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;青海省人民医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Qinghai Provincial People's Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;吉林大学附属第一医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The First Affiliated Hospital of Jilin University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;首都医科大学附属北京同仁医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Beijing Tongren Hospital, Capital Medical University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;山东大学齐鲁医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Qilu Hospital, Shandong University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;陕西省第四军医大学唐都医院神经内科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Tangdu Hospital, Fourth Military Medical University, Shaanxi is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;内蒙古医科大学附属医院神经内科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Neurology Department, Affiliated Hospital of Inner Mongolia Medical University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;海南医学院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Hainan Medical University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;北京大学人民医院神经内科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Department of Neurology, Peking University People's Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;中山大学附属第一医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The First Affiliated Hospital of Sun Yat-sen University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;广西医科大学神经病学研究所&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Institute of Neurology, Guangxi Medical University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;海军总医院神经内科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Department of Neurology, PLA General Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;重庆医科大学附属第一医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The First Affiliated Hospital of Chongqing Medical University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;南方医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Nanfang Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;首都医科大学附属北京天坛医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Beijing Tiantan Hospital, Capital Medical University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;上海交通大学附属仁济医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Renji Hospital, Shanghai Jiao Tong University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;解放军总医院南楼神经内科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Department of Neurology, South Building, PLA General Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;江西省人民医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Jiangxi Provincial People's Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;复旦大学附属华山医院神经病学研究所&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Institute of Neurology, Huashan Hospital, Fudan University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;北京协和医院神经科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Department of Neurology, Peking Union Medical College Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;北京医院神经科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Department of Neurology, Beijing Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;哈尔滨医科大学附属二院神经内科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Department of Neurology, Second Affiliated Hospital of Harbin Medical University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;兰州大学第二医院神经内科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Department of Neurology, Second Hospital of Lanzhou University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;上海交通大学附属第六人民医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Sixth People's Hospital, Shanghai Jiao Tong University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;青岛大学附属医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Qingdao University Affiliated Hospital is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;四川大学华西医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"West China Hospital, Sichuan University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;中南大学湘雅医院&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Xiangya Hospital, Central South University is a medical institution involved in the development and research of NMOSD."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;安中平&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"An Zhongping is a participant in the development and research of NMOSD, affiliated with Tianjin Huanhu Hospital."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;卜碧涛&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Bu Bitao is a participant in the development and research of NMOSD, affiliated with Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;曾丽莉&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Zeng Lili is a participant in the development and research of NMOSD, affiliated with Ruijin Hospital, Shanghai."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;陈向军&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Chen Xiangjun is a participant in the development and research of NMOSD, affiliated with Huashan Hospital, Fudan University."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <node id="&quot;成江&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Cheng Jiang is a participant in the development and research of NMOSD, affiliated with Ningxia Medical University General Hospital."</data>
+      <data key="d2">chunk-3f25f31870a5e0c1064ecb45bba89ae1</data>
+    </node>
+    <edge source="&quot;中国视神经脊髓炎谱系疾病诊断与治疗指南中国免疫学会神经免疫学分会 中华医学会神经病学分会神经免疫学组 中国医师协会神经内科分会神经免疫专业委员会&quot;" target="&quot;视神经脊髓炎谱系疾病(NEUROMYELITIS OPTICA SPECTRUM DISORDERS, NMOSD)&quot;">
       <data key="d3">9.0</data>
-      <data key="d4">"孙悟空出生在花果山，这里是他的故乡，他在这里度过了童年。"</data>
-      <data key="d5">"出生地,童年记忆"</data>
-      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+      <data key="d4">"The organization is involved in the diagnosis and treatment of NMOSD, providing guidelines and standards for clinical practice."</data>
+      <data key="d5">"clinical guidelines, diagnosis, treatment"</data>
+      <data key="d6">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
     </edge>
-    <edge source="&quot;孙悟空&quot;" target="&quot;菩提祖师&quot;">
-      <data key="d3">10.0</data>
-      <data key="d4">"菩提祖师是孙悟空的师父，传授他七十二变和筋斗云等神通，对悟空的成长有重要影响。"</data>
-      <data key="d5">"师徒关系,传授法术"</data>
-      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </edge>
-    <edge source="&quot;孙悟空&quot;" target="&quot;天庭&quot;">
+    <edge source="&quot;视神经脊髓炎(NEUROMYELITIS OPTICA, NMO)&quot;" target="&quot;视神经脊髓炎谱系疾病(NEUROMYELITIS OPTICA SPECTRUM DISORDERS, NMOSD)&quot;">
       <data key="d3">8.0</data>
-      <data key="d4">"孙悟空挑战天庭的权威，大闹天宫，与天兵天将展开了一场惊天动地的大战。"</data>
-      <data key="d5">"对抗,挑战权威"</data>
-      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+      <data key="d4">"NMO is a specific form of NMOSD, and both are characterized by immune-mediated inflammatory demyelinating processes in the CNS."</data>
+      <data key="d5">"disease spectrum, clinical features"</data>
+      <data key="d6">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
     </edge>
-    <edge source="&quot;孙悟空&quot;" target="&quot;玉帝&quot;">
+    <edge source="&quot;视神经脊髓炎谱系疾病(NEUROMYELITIS OPTICA SPECTRUM DISORDERS, NMOSD)&quot;" target="&quot;AQP4-IGG (水通道蛋白4抗体)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"AQP4-IgG is a highly specific marker for NMOSD, playing a crucial role in its diagnosis and pathogenesis."</data>
+      <data key="d5">"diagnostic marker, pathogenesis"</data>
+      <data key="d6">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </edge>
+    <edge source="&quot;视神经脊髓炎谱系疾病(NEUROMYELITIS OPTICA SPECTRUM DISORDERS, NMOSD)&quot;" target="&quot;国际NMO诊断小组(INTERNATIONAL PANEL ON NMO DIAGNOSIS, IPND)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"IPND developed new diagnostic criteria for NMOSD, integrating NMO into the broader NMOSD category."</data>
+      <data key="d5">"diagnostic criteria, disease integration"</data>
+      <data key="d6">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </edge>
+    <edge source="&quot;视神经脊髓炎谱系疾病(NEUROMYELITIS OPTICA SPECTRUM DISORDERS, NMOSD)&quot;" target="&quot;WINGERCHUK等&quot;">
       <data key="d3">7.0</data>
-      <data key="d4">"孙悟空挑战玉帝的权威，最终被封为齐天大圣，但并未因此满足。"</data>
-      <data key="d5">"对抗,封号"</data>
-      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+      <data key="d4">"Wingerchuk and colleagues proposed the term NMOSD to encompass a broader range of related diseases in 2007."</data>
+      <data key="d5">"terminology, disease classification"</data>
+      <data key="d6">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
     </edge>
-    <edge source="&quot;孙悟空&quot;" target="&quot;如来佛祖&quot;">
-      <data key="d3">9.0</data>
-      <data key="d4">"如来佛祖与孙悟空打赌，将悟空困在五指山下，悟空被困五百年。"</data>
-      <data key="d5">"对抗,困住"</data>
-      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
-    </edge>
-    <edge source="&quot;孙悟空&quot;" target="&quot;唐僧&quot;">
+    <edge source="&quot;视神经脊髓炎谱系疾病(NEUROMYELITIS OPTICA SPECTRUM DISORDERS, NMOSD)&quot;" target="&quot;亚洲、拉丁美洲、非洲、西班牙裔和美国原住民&quot;">
       <data key="d3">8.0</data>
-      <data key="d4">"唐僧救出孙悟空，悟空决定保护唐僧西天取经，赎自己的罪过。"</data>
-      <data key="d5">"保护,赎罪"</data>
-      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+      <data key="d4">"NMOSD is more prevalent in non-white populations, particularly in these regions and ethnic groups."</data>
+      <data key="d5">"prevalence, ethnic distribution"</data>
+      <data key="d6">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
     </edge>
-    <edge source="&quot;孙悟空&quot;" target="&quot;五指山&quot;">
+    <edge source="&quot;视神经脊髓炎谱系疾病(NEUROMYELITIS OPTICA SPECTRUM DISORDERS, NMOSD)&quot;" target="&quot;干燥综合征、系统性红斑狼疮、桥本氏病&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"These autoimmune diseases often co-occur with NMOSD, indicating a common underlying immune mechanism."</data>
+      <data key="d5">"co-occurrence, immune mechanism"</data>
+      <data key="d6">chunk-d3c46123897bf67b8ac7a319f7459d5e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;SJÖGREN'S SYNDROME&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD often co-occurs with Sjögren's Syndrome, indicating a common autoimmune basis and potential shared risk factors."</data>
+      <data key="d5">"co-occurrence, autoimmune basis"</data>
+      <data key="d6">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;SYSTEMIC LUPUS ERYTHEMATOSUS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD often co-occurs with Systemic Lupus Erythematosus, indicating a common autoimmune basis and potential shared risk factors."</data>
+      <data key="d5">"co-occurrence, autoimmune basis"</data>
+      <data key="d6">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;HASHIMOTO'S DISEASE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD often co-occurs with Hashimoto's Disease, indicating a common autoimmune basis and potential shared risk factors."</data>
+      <data key="d5">"co-occurrence, autoimmune basis"</data>
+      <data key="d6">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;VISION IMPAIRMENT&quot;">
       <data key="d3">9.0</data>
-      <data key="d4">"孙悟空被如来佛祖困在五指山下，被困五百年。"</data>
-      <data key="d5">"被困,赎罪"</data>
-      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+      <data key="d4">"NMOSD frequently leads to Vision Impairment due to its high recurrence and disability rates."</data>
+      <data key="d5">"causality, high recurrence"</data>
+      <data key="d6">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
     </edge>
-    <edge source="&quot;唐僧&quot;" target="&quot;西天取经&quot;">
+    <edge source="&quot;NMOSD&quot;" target="&quot;MOTOR FUNCTION IMPAIRMENT&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"NMOSD frequently leads to Motor Function Impairment due to its high recurrence and disability rates."</data>
+      <data key="d5">"causality, high recurrence"</data>
+      <data key="d6">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;URINARY AND BOWEL DYSFUNCTION&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"NMOSD frequently leads to Urinary and Bowel Dysfunction due to its high recurrence and disability rates."</data>
+      <data key="d5">"causality, high recurrence"</data>
+      <data key="d6">chunk-8ac7464d1b9ccfb3319afbae828cc7e1</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;ON&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"ON is a core clinical feature of NMOSD, often presenting as inflammation of the optic nerve."</data>
+      <data key="d5">"clinical feature, diagnostic marker"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;急性脊髓炎&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"急性脊髓炎 is a core clinical feature of NMOSD, often presenting as inflammation of the spinal cord."</data>
+      <data key="d5">"clinical feature, diagnostic marker"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;延髓最后区综合征&quot;">
+      <data key="d3">17.0</data>
+      <data key="d4">"NMOSD的一种表现形式是延髓最后区综合征，表现为顽固性呃逆、恶心、呕吐等。"&lt;SEP&gt;"延髓最后区综合征 is a core clinical feature of NMOSD, often affecting the medulla oblongata."</data>
+      <data key="d5">"clinical feature, diagnostic marker"&lt;SEP&gt;"临床表现,疾病特征"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e&lt;SEP&gt;chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;NMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMO is a specific form of NMOSD characterized by lesions primarily in the optic nerve and spinal cord."</data>
+      <data key="d5">"specific form, historical context"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;R‐ON&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"r‐ON is a form of ON where the optic nerve is repeatedly inflamed, a clinical feature of NMOSD."</data>
+      <data key="d5">"clinical feature, recurrence"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;TM&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"TM is a core clinical feature of NMOSD, often presenting as inflammation of the spinal cord."</data>
+      <data key="d5">"clinical feature, diagnostic marker"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;LETM&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"LETM is a form of TM where the spinal cord is extensively and longitudinally inflamed, a clinical feature of NMOSD."</data>
+      <data key="d5">"clinical feature, extensive inflammation"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;R‐LETM&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"r‐LETM is a form of LETM where the spinal cord is repeatedly and extensively inflamed, a clinical feature of NMOSD."</data>
+      <data key="d5">"clinical feature, recurrence, extensive inflammation"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;中国神经免疫学和神经病学杂志&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"中国神经免疫学和神经病学杂志发表了关于NMOSD的研究和临床观察，提供了重要的科学依据。"</data>
+      <data key="d5">"学术研究,临床观察"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;脊髓病变&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD的一种表现形式是脊髓病变，可能与延髓最后区综合征相连续。"</data>
+      <data key="d5">"临床表现,疾病特征"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;脑干及第四脑室周边症候&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD的一种表现形式是脑干及第四脑室周边症候，表现为头晕、复视、共济失调等。"</data>
+      <data key="d5">"临床表现,疾病特征"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;下丘脑症候&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD的一种表现形式是下丘脑症候，表现为困倦、发作性睡病样表现、顽固性低钠血症、体温调节障碍等。"</data>
+      <data key="d5">"临床表现,疾病特征"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;大脑半球白质或胼胝体症候&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD的一种表现形式是大脑半球白质或胼胝体症候，表现为淡漠、反应迟缓、认知水平下降、头痛等。"</data>
+      <data key="d5">"临床表现,疾病特征"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;AQP4‐IGG阳性&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"NMOSD的某些表现形式与AQP4‐IgG阳性相关，表明免疫系统的参与。"</data>
+      <data key="d5">"免疫反应,疾病关联"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;风湿相关自身免疫性疾病&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"NMOSD可能与风湿相关自身免疫性疾病合并存在，如干燥综合征、系统性红斑狼疮、桥本氏病等。"</data>
+      <data key="d5">"疾病合并,免疫反应"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;ANA&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"NMOSD可能与ANA阳性相关，表明免疫系统的参与。"</data>
+      <data key="d5">"免疫反应,疾病关联"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;SSA&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"NMOSD可能与SSA阳性相关，表明免疫系统的参与。"</data>
+      <data key="d5">"免疫反应,疾病关联"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;SSB&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"NMOSD可能与SSB阳性相关，表明免疫系统的参与。"</data>
+      <data key="d5">"免疫反应,疾病关联"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;脑脊液(CSF)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD的实验室检查包括脑脊液(CSF)分析，用于评估患者的炎症和免疫反应。"</data>
+      <data key="d5">"实验室检查,疾病诊断"</data>
+      <data key="d6">chunk-e50d60a84829b64d6b34c785f4f1153e</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;WINGERCHUK&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Wingerchuk and others developed the 2006 diagnostic criteria for NMO, which is a specific form of NMOSD."</data>
+      <data key="d5">"diagnostic criteria, research"</data>
+      <data key="d6">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;INTERNATIONAL NMO DIAGNOSIS PANEL (IPND)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The IPND developed the 2015 diagnostic criteria for NMOSD, which includes NMO and other related disorders."</data>
+      <data key="d5">"diagnostic criteria, expert panel"</data>
+      <data key="d6">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;AQP4-IGG&quot;">
       <data key="d3">10.0</data>
-      <data key="d4">"唐僧带领悟空等人前往西天取得真经，悟空在此过程中保护唐僧。"</data>
-      <data key="d5">"领导,保护"</data>
-      <data key="d6">chunk-8559b73f605ece74b5261f828f0dbe50</data>
+      <data key="d4">"AQP4-IgG is a key marker for diagnosing NMOSD, used to differentiate between AQP4-IgG positive and negative cases."</data>
+      <data key="d5">"diagnostic marker, autoimmune response"</data>
+      <data key="d6">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;MS (MULTIPLE SCLEROSIS)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"MS is a different autoimmune disorder that needs to be excluded in the diagnosis of NMOSD."</data>
+      <data key="d5">"differential diagnosis, exclusion"</data>
+      <data key="d6">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;OCT (OPTICAL COHERENCE TOMOGRAPHY)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"OCT is used to measure the thickness of the retinal nerve fiber layer, which is often affected in NMOSD patients."</data>
+      <data key="d5">"diagnostic tool, retinal changes"</data>
+      <data key="d6">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;VISUAL EVOKED POTENTIALS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Visual Evoked Potentials is a diagnostic test that measures the electrical activity in the visual pathways, often showing abnormalities in NMOSD patients."</data>
+      <data key="d5">"diagnostic tool, visual pathway changes"</data>
+      <data key="d6">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;MRI (MAGNETIC RESONANCE IMAGING)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"MRI is used to identify lesions in the spinal cord and brain, which are important for diagnosing NMOSD."</data>
+      <data key="d5">"diagnostic tool, imaging"</data>
+      <data key="d6">chunk-1508a751986aeefee59f14762ad947b8</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;糖皮质激素 (CORTICOSTEROIDS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Corticosteroids are a key component of the acute phase treatment for NMOSD, aimed at reducing inflammation and improving neurological function."</data>
+      <data key="d5">"treatment, inflammation reduction"</data>
+      <data key="d6">chunk-d760189ca87cf4816e2d4c9aaa4ad24c</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;甲泼尼龙 (METHYLPREDNISOLONE)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Methylprednisolone is used in the acute phase treatment of NMOSD to rapidly reduce inflammation and improve neurological function."</data>
+      <data key="d5">"treatment, rapid response"</data>
+      <data key="d6">chunk-d760189ca87cf4816e2d4c9aaa4ad24c</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;泼尼松 (PREDNISONE)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Prednisone is used in the maintenance phase of NMOSD treatment to prevent relapse and manage long-term symptoms."</data>
+      <data key="d5">"treatment, long-term management"</data>
+      <data key="d6">chunk-d760189ca87cf4816e2d4c9aaa4ad24c</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;血浆置换 (PE)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Plasma exchange (PE) is a treatment method used for NMOSD, particularly in patients who do not respond well to high-dose methylprednisolone."</data>
+      <data key="d5">"treatment, efficacy"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;静脉注射大剂量免疫球蛋白 (IVIG)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Intravenous immunoglobulin (IVIg) is a treatment method used for NMOSD, particularly in patients who do not respond well to high-dose methylprednisolone."</data>
+      <data key="d5">"treatment, efficacy"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;环磷酰胺&quot;">
+      <data key="d3">17.0</data>
+      <data key="d4">"环磷酰胺 is used as a second-line drug in the treatment of NMOSD, particularly for patients who cannot undergo IVIg or PE treatment."&lt;SEP&gt;"环磷酰胺用于减少NMOSD复发和减缓神经功能障碍进展，作为二线药物，适用于其他治疗无效的情况。"</data>
+      <data key="d5">"treatment, efficacy"&lt;SEP&gt;"treatment, second-line drug"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-61b576d65721d15b39a0c520f28e6ee6</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;硫唑嘌呤&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"硫唑嘌呤 is a first-line drug used to reduce recurrence and slow the progression of neurological dysfunction in NMOSD patients."</data>
+      <data key="d5">"treatment, first-line drug"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;吗替麦考酚酯&quot;">
+      <data key="d3">17.0</data>
+      <data key="d4">"吗替麦考酚酯 is a first-line drug used in the treatment of NMOSD."&lt;SEP&gt;"吗替麦考酚酯用于减少NMOSD的复发和减缓神经功能障碍进展，具有显著疗效。"</data>
+      <data key="d5">"treatment, efficacy"&lt;SEP&gt;"treatment, first-line drug"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;甲氨蝶呤&quot;">
+      <data key="d3">17.0</data>
+      <data key="d4">"甲氨蝶呤 can be used alone or in combination with 泼尼松 to reduce NMOSD recurrence and functional impairment, making it a suitable option for patients who cannot tolerate other immunosuppressants."&lt;SEP&gt;"甲氨蝶呤 is a first-line drug used in the treatment of NMOSD."</data>
+      <data key="d5">"treatment, first-line drug"&lt;SEP&gt;"treatment, recurrence reduction, affordability"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;利妥昔单抗 (RITUXIMAB)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"利妥昔单抗 (rituximab) is a first-line drug used in the treatment of NMOSD."</data>
+      <data key="d5">"treatment, first-line drug"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;他克莫司&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"他克莫司 is a second-line drug used in the treatment of NMOSD."</data>
+      <data key="d5">"treatment, second-line drug"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;米托蒽醌&quot;">
+      <data key="d3">17.0</data>
+      <data key="d4">"米托蒽醌 is a second-line drug used in the treatment of NMOSD."&lt;SEP&gt;"米托蒽醌用于减少NMOSD复发，作为二线药物，适用于反复发作而其他方法治疗效果不佳的情况。"</data>
+      <data key="d5">"treatment, efficacy"&lt;SEP&gt;"treatment, second-line drug"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-61b576d65721d15b39a0c520f28e6ee6</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;IVIG&quot;">
+      <data key="d3">15.0</data>
+      <data key="d4">"IVIg is used in intermittent low doses to reduce NMOSD recurrence, but its effectiveness is based on open clinical trials, and more robust studies are needed."&lt;SEP&gt;"IVIg is used in the prevention of NMOSD, particularly for patients who cannot use immunosuppressants."</data>
+      <data key="d5">"treatment, prevention"&lt;SEP&gt;"treatment, recurrence reduction, need for further research"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2&lt;SEP&gt;chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;PE&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"PE is used in the prevention of NMOSD, particularly for patients who cannot use immunosuppressants."</data>
+      <data key="d5">"treatment, prevention"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;AQP4‐IGG&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"AQP4‐IgG is a biomarker used to identify patients with NMOSD, particularly those who are positive for this marker."</data>
+      <data key="d5">"biomarker, identification"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;单时相及多时相NMOSD&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"单时相及多时相NMOSD refers to the different phases of NMOSD, with single-phase and multi-phase types, which need to be carefully assessed."</data>
+      <data key="d5">"disease type, assessment"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;儿童及妊娠期患者&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"儿童及妊娠期患者 are a specific group of patients who may require special considerations in NMOSD treatment, such as the use of IVIg."</data>
+      <data key="d5">"patient group, special considerations"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;利妥昔单抗&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"利妥昔单抗用于减少NMOSD的复发和减缓神经功能障碍进展，具有显著疗效。"</data>
+      <data key="d5">"treatment, efficacy"</data>
+      <data key="d6">chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;泼尼松&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"泼尼松 is used in low doses to maintain treatment and reduce NMOSD recurrence, often in combination with other immunosuppressants."</data>
+      <data key="d5">"treatment, recurrence reduction"</data>
+      <data key="d6">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;环孢素A&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"环孢素A is recommended at a specific dose to reduce NMOSD recurrence, with careful monitoring for renal toxicity."</data>
+      <data key="d5">"treatment, recurrence reduction, monitoring"</data>
+      <data key="d6">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;Β 干扰素&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"β 干扰素, a treatment for MS, can worsen NMOSD symptoms, highlighting the need for caution in its use."</data>
+      <data key="d5">"contraindication, symptom exacerbation"</data>
+      <data key="d6">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;芬戈莫德&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"芬戈莫德, a treatment for MS, can exacerbate NMOSD symptoms, emphasizing the need for careful selection of treatments."</data>
+      <data key="d5">"contraindication, symptom exacerbation"</data>
+      <data key="d6">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;那他珠单抗&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"那他珠单抗, a treatment for MS, can worsen NMOSD symptoms, underlining the importance of avoiding certain MS treatments in NMOSD patients."</data>
+      <data key="d5">"contraindication, symptom exacerbation"</data>
+      <data key="d6">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;免疫抑制剂&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"免疫抑制剂 are used to reduce NMOSD recurrence but may have long-term risks such as increased susceptibility to infections and cancer, requiring careful consideration."</data>
+      <data key="d5">"treatment, long-term risks"</data>
+      <data key="d6">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;NMOSD&quot;" target="&quot;妊娠期&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"NMOSD patients have a similar risk of recurrence during pregnancy as non-pregnant periods, but a higher risk postpartum, necessitating continued immunosuppressive treatment."</data>
+      <data key="d5">"recurrence risk, postpartum risk, treatment continuation"</data>
+      <data key="d6">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;德维克&quot;" target="&quot;NMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"德维克 and his student 高尔特 described the initial cases of NMO, leading to the naming of Devic's disease."</data>
+      <data key="d5">"historical context, discovery"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;高尔特&quot;" target="&quot;NMO&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"高尔特, a student of 德维克, contributed to the description of the initial cases of NMO."</data>
+      <data key="d5">"historical context, discovery"</data>
+      <data key="d6">chunk-d542d24224ab1496d411addcf36c956e</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;NEUROMYELITIS OPTICA (NMO)&quot;">
+      <data key="d3">10.0</data>
+      <data key="d4">"AQP4‐IgG is a specific biomarker for NMO, indicating a strong association between the two."</data>
+      <data key="d5">"biomarker, disease diagnosis"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;CELL-BASED TRANSFECTION IMMUNOFLUORESCENCE ASSAY (CBA)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"CBA is a highly specific and sensitive method for detecting AQP4‐IgG, making it a preferred diagnostic tool."</data>
+      <data key="d5">"diagnostic method, high specificity"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;ENZYME-LINKED IMMUNOSORBENT ASSAY (ELISA)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"ELISA is a sensitive method for detecting AQP4‐IgG, but it can produce false positives and has some controversy regarding its use for predicting disease progression and recurrence."</data>
+      <data key="d5">"diagnostic method, sensitivity, controversy"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;ANTI-NUCLEAR ANTIBODIES (ANAS)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The presence of ANAs in the serum can support the diagnosis of NMOSD, indicating a potential overlap with other autoimmune conditions."</data>
+      <data key="d5">"autoimmune markers, diagnosis support"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;ANTI-SSA ANTIBODIES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The presence of Anti-SSA antibodies in the serum can support the diagnosis of NMOSD, indicating a potential overlap with other autoimmune conditions."</data>
+      <data key="d5">"autoimmune markers, diagnosis support"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;ANTI-SSB ANTIBODIES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The presence of Anti-SSB antibodies in the serum can support the diagnosis of NMOSD, indicating a potential overlap with other autoimmune conditions."</data>
+      <data key="d5">"autoimmune markers, diagnosis support"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;ANTI-THYROID ANTIBODIES&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The presence of Anti-thyroid antibodies in the serum can support the diagnosis of NMOSD, indicating a potential overlap with other autoimmune conditions."</data>
+      <data key="d5">"autoimmune markers, diagnosis support"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;MYELIN OLIGODENDROCYTE GLYCOPROTEIN (MOG) ANTIBODIES&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"MOG antibodies are found in a significant portion of AQP4‐IgG negative NMOSD patients, indicating a different clinical presentation and course."</data>
+      <data key="d5">"alternative biomarker, clinical presentation"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4‐IGG&quot;" target="&quot;N-METHYL-D-ASPARTATE RECEPTOR ANTIBODIES&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"N-Methyl-D-Aspartate Receptor Antibodies can be present in patients with NMOSD, particularly in those with tumors, indicating a complex relationship."</data>
+      <data key="d5">"autoimmune markers, complex conditions"</data>
+      <data key="d6">chunk-3ae28088c4f039d981f2d5100cb16987</data>
+    </edge>
+    <edge source="&quot;AQP4-IGG&quot;" target="&quot;2015年NMOSD诊断标准&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"2015年NMOSD诊断标准强调了AQP4-IgG的诊断特异性，但仍然存在假阳性和假阴性的情况。"</data>
+      <data key="d5">"diagnostic marker, specificity, sensitivity"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2006年NMO诊断标准&quot;" target="&quot;2015年NMOSD诊断标准&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"2006年NMO诊断标准和2015年NMOSD诊断标准都存在诊断特异度及敏感度问题，但2015年标准更强调AQP4-IgG的诊断特异性。"</data>
+      <data key="d5">"diagnostic criteria, specificity, sensitivity"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2015年NMOSD诊断标准&quot;" target="&quot;MS(多发性硬化症)&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"2015年NMOSD诊断标准需要与多发性硬化症进行鉴别诊断。"</data>
+      <data key="d5">"differential diagnosis, inflammatory demyelinating diseases"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2015年NMOSD诊断标准&quot;" target="&quot;急性播散性脑脊髓炎&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"2015年NMOSD诊断标准需要与急性播散性脑脊髓炎进行鉴别诊断。"</data>
+      <data key="d5">"differential diagnosis, inflammatory demyelinating diseases"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2015年NMOSD诊断标准&quot;" target="&quot;假瘤型脱髓鞘&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"2015年NMOSD诊断标准需要与假瘤型脱髓鞘进行鉴别诊断。"</data>
+      <data key="d5">"differential diagnosis, inflammatory demyelinating diseases"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2015年NMOSD诊断标准&quot;" target="&quot;系统性红斑狼疮&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"2015年NMOSD诊断标准需要与系统性红斑狼疮进行鉴别诊断。"</data>
+      <data key="d5">"differential diagnosis, systemic diseases"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2015年NMOSD诊断标准&quot;" target="&quot;白塞病&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"2015年NMOSD诊断标准需要与白塞病进行鉴别诊断。"</data>
+      <data key="d5">"differential diagnosis, systemic diseases"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2015年NMOSD诊断标准&quot;" target="&quot;干燥综合征&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"2015年NMOSD诊断标准需要与干燥综合征进行鉴别诊断。"</data>
+      <data key="d5">"differential diagnosis, systemic diseases"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2015年NMOSD诊断标准&quot;" target="&quot;结节病&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"2015年NMOSD诊断标准需要与结节病进行鉴别诊断。"</data>
+      <data key="d5">"differential diagnosis, systemic diseases"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;2015年NMOSD诊断标准&quot;" target="&quot;系统性血管炎&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"2015年NMOSD诊断标准需要与系统性血管炎进行鉴别诊断。"</data>
+      <data key="d5">"differential diagnosis, systemic diseases"</data>
+      <data key="d6">chunk-986f5e5e25af5fc5cd7f1b02d15e67ea</data>
+    </edge>
+    <edge source="&quot;糖皮质激素 (CORTICOSTEROIDS)&quot;" target="&quot;甲泼尼龙 (METHYLPREDNISOLONE)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Methylprednisolone is a specific corticosteroid used in the high-dose intravenous phase of NMOSD treatment."</data>
+      <data key="d5">"specific drug, high-dose treatment"</data>
+      <data key="d6">chunk-d760189ca87cf4816e2d4c9aaa4ad24c</data>
+    </edge>
+    <edge source="&quot;糖皮质激素 (CORTICOSTEROIDS)&quot;" target="&quot;泼尼松 (PREDNISONE)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Prednisone is a specific corticosteroid used in the oral maintenance phase of NMOSD treatment."</data>
+      <data key="d5">"specific drug, maintenance treatment"</data>
+      <data key="d6">chunk-d760189ca87cf4816e2d4c9aaa4ad24c</data>
+    </edge>
+    <edge source="&quot;糖皮质激素 (CORTICOSTEROIDS)&quot;" target="&quot;免疫抑制剂 (IMMUNOSUPPRESSANTS)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"Corticosteroids and immunosuppressants are often used in combination to manage NMOSD, with immunosuppressants preventing relapse and managing long-term symptoms."</data>
+      <data key="d5">"combination therapy, relapse prevention"</data>
+      <data key="d6">chunk-d760189ca87cf4816e2d4c9aaa4ad24c</data>
+    </edge>
+    <edge source="&quot;大剂量激素治疗&quot;" target="&quot;心律失常&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"High-dose hormone therapy can cause arrhythmia, requiring careful monitoring and management."</data>
+      <data key="d5">"side effect, monitoring"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;大剂量激素治疗&quot;" target="&quot;质子泵抑制剂&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Proton pump inhibitors are used to prevent upper gastrointestinal bleeding, a common side effect of high-dose hormone therapy."</data>
+      <data key="d5">"side effect, prevention"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;大剂量激素治疗&quot;" target="&quot;卒中预防&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"Stroke prevention is recommended for older patients or those with stroke risk factors during high-dose hormone therapy."</data>
+      <data key="d5">"side effect, prevention"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;大剂量激素治疗&quot;" target="&quot;电解质紊乱&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Electrolyte imbalance is a common side effect of high-dose hormone therapy."</data>
+      <data key="d5">"side effect, management"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;大剂量激素治疗&quot;" target="&quot;血糖、血压、血脂异常&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Abnormal blood sugar, blood pressure, and lipid levels are common side effects of high-dose hormone therapy."</data>
+      <data key="d5">"side effect, management"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;大剂量激素治疗&quot;" target="&quot;上消化道出血&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"Upper gastrointestinal bleeding is a common side effect of high-dose hormone therapy."</data>
+      <data key="d5">"side effect, prevention"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;大剂量激素治疗&quot;" target="&quot;骨质疏松、股骨头坏死&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"Osteoporosis and avascular necrosis of the femoral head are potential complications of long-term high-dose hormone therapy."</data>
+      <data key="d5">"side effect, prevention"</data>
+      <data key="d6">chunk-c7e6004f5252810899e285bab15d921b</data>
+    </edge>
+    <edge source="&quot;环磷酰胺&quot;" target="&quot;美司钠 (UROMITEXAN)&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"美司钠 (Uromitexan) 用于预防环磷酰胺引起的出血性膀胱炎。"</data>
+      <data key="d5">"preventive measure, side effect management"</data>
+      <data key="d6">chunk-61b576d65721d15b39a0c520f28e6ee6</data>
+    </edge>
+    <edge source="&quot;环磷酰胺&quot;" target="&quot;妊娠期&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"环磷酰胺不推荐在妊娠前期、妊娠和哺乳期使用，除非孕妇具有生命危险或器官功能衰竭风险。"</data>
+      <data key="d5">"禁忌,风险"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;硫唑嘌呤&quot;" target="&quot;硫代嘌呤甲基转移酶 (TMTP)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"硫代嘌呤甲基转移酶 (TMTP) is tested to avoid severe adverse reactions to硫唑嘌呤."</data>
+      <data key="d5">"enzyme, adverse reaction prevention"</data>
+      <data key="d6">chunk-b9071098864a619d35d144407f2b30d2</data>
+    </edge>
+    <edge source="&quot;硫唑嘌呤&quot;" target="&quot;吗替麦考酚酯&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"吗替麦考酚酯起效较硫唑嘌呤快，副作用较少。"</data>
+      <data key="d5">"comparison, side effects"</data>
+      <data key="d6">chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </edge>
+    <edge source="&quot;硫唑嘌呤&quot;" target="&quot;妊娠期&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"硫唑嘌呤在妊娠期使用具有B级推荐，剂量需≤2mg/(kg・d)，表明其在妊娠期的使用条件。"</data>
+      <data key="d5">"剂量限制,安全性"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;甲氨蝶呤&quot;" target="&quot;妊娠期&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"甲氨蝶呤在妊娠期应避免使用，受孕前3个月应停用，哺乳期不推荐使用。"</data>
+      <data key="d5">"禁忌,风险"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;他克莫司&quot;" target="&quot;妊娠期&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"他克莫司在妊娠期使用最低有效剂量，具有D级推荐，表明其在妊娠期的使用条件。"</data>
+      <data key="d5">"剂量限制,安全性"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;利妥昔单抗&quot;" target="&quot;B细胞&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"利妥昔单抗通过消减B细胞来减少NMOSD的复发和减缓神经功能障碍进展。"</data>
+      <data key="d5">"treatment mechanism, immune response"</data>
+      <data key="d6">chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </edge>
+    <edge source="&quot;利妥昔单抗&quot;" target="&quot;进行性多灶性白质脑病&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"有文献报道在使用利妥昔单抗治疗肿瘤或类风湿关节炎时发生进行性多灶性白质脑病，但大多数病例合用了其他免疫抑制剂。"</data>
+      <data key="d5">"side effects, risk"</data>
+      <data key="d6">chunk-64c89732b9f2941c9331e3813eeb9803</data>
+    </edge>
+    <edge source="&quot;利妥昔单抗&quot;" target="&quot;妊娠期&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"利妥昔单抗不建议在妊娠前期、妊娠和哺乳期使用，因为胎儿的安全性文献不足，理论上存在风险。"</data>
+      <data key="d5">"禁忌,风险"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;环孢素A&quot;" target="&quot;妊娠期&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"环孢素A在妊娠期使用最低有效剂量，具有B级推荐，表明其在妊娠期的使用条件。"</data>
+      <data key="d5">"剂量限制,安全性"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;免疫抑制剂&quot;" target="&quot;生育期&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The use of immunosuppressants in reproductive age patients, both male and female, can have significant risks for the fetus or newborn, requiring careful management."</data>
+      <data key="d5">"reproductive risks, fetal safety, treatment management"</data>
+      <data key="d6">chunk-4729f02f7104a27cc56e83a3aba8a1a4</data>
+    </edge>
+    <edge source="&quot;妊娠期&quot;" target="&quot;IVIG (丙种球蛋白)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"IVIg (丙种球蛋白)在妊娠期使用具有A级推荐，表明其在妊娠期的安全性和有效性。"</data>
+      <data key="d5">"安全性,有效性"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;妊娠期&quot;" target="&quot;麦考酚酸酯&quot;">
+      <data key="d3">6.0</data>
+      <data key="d4">"麦考酚酸酯禁忌在妊娠期间使用，计划怀孕前至少6周应停用，哺乳期不建议使用。"</data>
+      <data key="d5">"禁忌,风险"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;泼尼松龙&quot;" target="&quot;甲泼尼松龙&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"甲泼尼松龙的胎盘转运率与泼尼松龙相似，产生等效抗炎作用所需剂量为泼尼松龙的80%，因此在妊娠和哺乳期均可使用。"</data>
+      <data key="d5">"相似性,剂量差异"</data>
+      <data key="d6">chunk-08e2af106947799f5d0790038b946347</data>
+    </edge>
+    <edge source="&quot;巴氯芬&quot;" target="&quot;痛性痉挛&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"巴氯芬用于治疗痛性痉挛，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, pain management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;巴氯芬&quot;" target="&quot;顽固性呃逆&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"巴氯芬用于治疗顽固性呃逆，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, symptom management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;阿米替林&quot;" target="&quot;慢性疼痛&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"阿米替林用于治疗慢性疼痛，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, pain management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;阿米替林&quot;" target="&quot;感觉异常&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"阿米替林用于治疗感觉异常，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, symptom management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;莫达非尼 (MODAFINIL)&quot;" target="&quot;乏力、疲劳&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"莫达非尼用于治疗乏力和疲劳，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, fatigue management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;金刚烷胺&quot;" target="&quot;乏力、疲劳&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"金刚烷胺用于治疗乏力和疲劳，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, fatigue management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;盐酸苯海索&quot;" target="&quot;震颤&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"盐酸苯海索用于治疗震颤，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, tremor management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;盐酸阿罗洛尔&quot;" target="&quot;震颤&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"盐酸阿罗洛尔用于治疗震颤，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, tremor management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;丙咪嗪&quot;" target="&quot;尿失禁&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"丙咪嗪用于治疗尿失禁，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, urinary incontinence"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;奥昔布宁&quot;" target="&quot;尿失禁&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"奥昔布宁用于治疗尿失禁，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, urinary incontinence"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;哌唑嗪&quot;" target="&quot;尿失禁&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"哌唑嗪用于治疗尿失禁，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, urinary incontinence"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;盐酸坦索罗辛&quot;" target="&quot;尿失禁&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"盐酸坦索罗辛用于治疗尿失禁，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, urinary incontinence"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;缓泻药&quot;" target="&quot;便秘&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"缓泻药用于治疗便秘，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, constipation management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;肉毒毒素A&quot;" target="&quot;下肢痉挛性肌张力增高&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"肉毒毒素A用于治疗下肢痉挛性肌张力增高，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, muscle spasticity"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;胆碱酯酶抑制剂&quot;" target="&quot;认知障碍&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"胆碱酯酶抑制剂用于治疗认知障碍，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, cognitive impairment"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;NMOSD的康复治疗&quot;" target="&quot;专业医生&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"专业医生指导患者进行NMOSD的康复治疗，确保治疗的有效性。"</data>
+      <data key="d5">"medical guidance, rehabilitation"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;慢性疼痛&quot;" target="&quot;SSRI&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"SSRI用于治疗慢性疼痛，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, pain management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;慢性疼痛&quot;" target="&quot;SNRI&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"SNRI用于治疗慢性疼痛，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, pain management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;慢性疼痛&quot;" target="&quot;NASSA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"NaSSA用于治疗慢性疼痛，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, pain management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;感觉异常&quot;" target="&quot;SSRI&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"SSRI用于治疗感觉异常，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, symptom management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;感觉异常&quot;" target="&quot;SNRI&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"SNRI用于治疗感觉异常，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, symptom management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;感觉异常&quot;" target="&quot;NASSA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"NaSSA用于治疗感觉异常，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, symptom management"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;SSRI&quot;" target="&quot;抑郁焦虑&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"SSRI用于治疗抑郁焦虑，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, mental health"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;抑郁焦虑&quot;" target="&quot;SNRI&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"SNRI用于治疗抑郁焦虑，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, mental health"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
+    </edge>
+    <edge source="&quot;抑郁焦虑&quot;" target="&quot;NASSA&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"NaSSA用于治疗抑郁焦虑，是该症状的常用药物。"</data>
+      <data key="d5">"treatment, mental health"</data>
+      <data key="d6">chunk-1566cfb7c4ce2f6905effb75f79ec360</data>
     </edge>
   </graph>
 </graphml>

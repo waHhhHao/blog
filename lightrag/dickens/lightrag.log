@@ -1,5 +1,5 @@
-2024-10-24 15:33:38,106 - lightrag - INFO - Logger initialized for working directory: ./dickens
-2024-10-24 15:33:38,106 - lightrag - DEBUG - LightRAG init with param:
+2024-10-24 16:21:52,068 - lightrag - INFO - Logger initialized for working directory: ./dickens
+2024-10-24 16:21:52,068 - lightrag - DEBUG - LightRAG init with param:
   working_dir = ./dickens,
   chunk_token_size = 1200,
   chunk_overlap_token_size = 100,
@@ -8,10 +8,10 @@
   entity_summary_to_max_tokens = 500,
   node_embedding_algorithm = node2vec,
   node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
-  embedding_func = {'embedding_dim': 1024, 'max_token_size': 8192, 'func': <function <lambda> at 0x000002B29F1ADBC0>},
+  embedding_func = {'embedding_dim': 1024, 'max_token_size': 8192, 'func': <function <lambda> at 0x0000027B04027F60>},
   embedding_batch_num = 32,
   embedding_func_max_async = 16,
-  llm_model_func = <function llm_model_func at 0x000002B2FE840540>,
+  llm_model_func = <function llm_model_func at 0x0000027B60A70540>,
   llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
   llm_model_max_token_size = 32768,
   llm_model_max_async = 16,
@@ -21,144 +21,128 @@
   graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
   enable_llm_cache = True,
   addon_params = {},
-  convert_response_to_json_func = <function convert_response_to_json at 0x000002B2A362BF60>
+  convert_response_to_json_func = <function convert_response_to_json at 0x0000027B0401BEC0>
 
-2024-10-24 15:33:38,107 - lightrag - INFO - Load KV full_docs with 0 data
-2024-10-24 15:33:38,107 - lightrag - INFO - Load KV text_chunks with 0 data
-2024-10-24 15:33:38,108 - lightrag - INFO - Load KV llm_response_cache with 0 data
-2024-10-24 15:33:38,109 - lightrag - INFO - Creating a new event loop in a sub-thread.
-2024-10-24 15:33:38,112 - lightrag - INFO - [New Docs] inserting 1 docs
-2024-10-24 15:33:38,502 - lightrag - INFO - [New Chunks] inserting 1 chunks
-2024-10-24 15:33:38,502 - lightrag - INFO - Inserting 1 vectors to chunks
-2024-10-24 15:33:46,673 - lightrag - INFO - [Entity Extraction]...
-2024-10-24 15:33:46,685 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
-2024-10-24 15:38:57,260 - lightrag - INFO - Logger initialized for working directory: ./dickens
-2024-10-24 15:38:57,260 - lightrag - DEBUG - LightRAG init with param:
-  working_dir = ./dickens,
-  chunk_token_size = 1200,
-  chunk_overlap_token_size = 100,
-  tiktoken_model_name = gpt-4o-mini,
-  entity_extract_max_gleaning = 1,
-  entity_summary_to_max_tokens = 500,
-  node_embedding_algorithm = node2vec,
-  node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
-  embedding_func = {'embedding_dim': 1024, 'max_token_size': 8192, 'func': <function <lambda> at 0x000002C0CDEADBC0>},
-  embedding_batch_num = 32,
-  embedding_func_max_async = 16,
-  llm_model_func = <function llm_model_func at 0x000002C0ADF40540>,
-  llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
-  llm_model_max_token_size = 32768,
-  llm_model_max_async = 16,
-  key_string_value_json_storage_cls = <class 'lightrag.storage.JsonKVStorage'>,
-  vector_db_storage_cls = <class 'lightrag.storage.NanoVectorDBStorage'>,
-  vector_db_storage_cls_kwargs = {},
-  graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
-  enable_llm_cache = True,
-  addon_params = {},
-  convert_response_to_json_func = <function convert_response_to_json at 0x000002C0D232BF60>
-
-2024-10-24 15:38:57,261 - lightrag - INFO - Load KV full_docs with 0 data
-2024-10-24 15:38:57,262 - lightrag - INFO - Load KV text_chunks with 0 data
-2024-10-24 15:38:57,263 - lightrag - INFO - Load KV llm_response_cache with 0 data
-2024-10-24 15:38:57,265 - lightrag - INFO - Loaded graph from ./dickens\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
-2024-10-24 15:38:57,267 - lightrag - INFO - Creating a new event loop in a sub-thread.
-2024-10-24 15:38:57,271 - lightrag - INFO - [New Docs] inserting 1 docs
-2024-10-24 15:38:57,737 - lightrag - INFO - [New Chunks] inserting 1 chunks
-2024-10-24 15:38:57,737 - lightrag - INFO - Inserting 1 vectors to chunks
-2024-10-24 15:39:09,278 - lightrag - INFO - [Entity Extraction]...
-2024-10-24 15:40:02,580 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
-2024-10-24 15:45:32,350 - lightrag - INFO - Logger initialized for working directory: ./dickens
-2024-10-24 15:45:32,351 - lightrag - DEBUG - LightRAG init with param:
-  working_dir = ./dickens,
-  chunk_token_size = 1200,
-  chunk_overlap_token_size = 100,
-  tiktoken_model_name = gpt-4o-mini,
-  entity_extract_max_gleaning = 1,
-  entity_summary_to_max_tokens = 500,
-  node_embedding_algorithm = node2vec,
-  node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
-  embedding_func = {'embedding_dim': 1024, 'max_token_size': 8192, 'func': <function <lambda> at 0x00000141EA871B20>},
-  embedding_batch_num = 32,
-  embedding_func_max_async = 16,
-  llm_model_func = <function llm_model_func at 0x00000141CA900540>,
-  llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
-  llm_model_max_token_size = 32768,
-  llm_model_max_async = 16,
-  key_string_value_json_storage_cls = <class 'lightrag.storage.JsonKVStorage'>,
-  vector_db_storage_cls = <class 'lightrag.storage.NanoVectorDBStorage'>,
-  vector_db_storage_cls_kwargs = {},
-  graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
-  enable_llm_cache = True,
-  addon_params = {},
-  convert_response_to_json_func = <function convert_response_to_json at 0x00000141EDD1FEC0>
-
-2024-10-24 15:45:32,352 - lightrag - INFO - Load KV full_docs with 0 data
-2024-10-24 15:45:32,352 - lightrag - INFO - Load KV text_chunks with 0 data
-2024-10-24 15:45:32,353 - lightrag - INFO - Load KV llm_response_cache with 0 data
-2024-10-24 15:45:32,355 - lightrag - INFO - Loaded graph from ./dickens\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
-2024-10-24 15:45:48,648 - lightrag - INFO - Logger initialized for working directory: ./dickens
-2024-10-24 15:45:48,649 - lightrag - DEBUG - LightRAG init with param:
-  working_dir = ./dickens,
-  chunk_token_size = 1200,
-  chunk_overlap_token_size = 100,
-  tiktoken_model_name = gpt-4o-mini,
-  entity_extract_max_gleaning = 1,
-  entity_summary_to_max_tokens = 500,
-  node_embedding_algorithm = node2vec,
-  node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
-  embedding_func = {'embedding_dim': 1024, 'max_token_size': 8192, 'func': <function <lambda> at 0x000001C5BAE55B20>},
-  embedding_batch_num = 32,
-  embedding_func_max_async = 16,
-  llm_model_func = <function llm_model_func at 0x000001C59AF40540>,
-  llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
-  llm_model_max_token_size = 32768,
-  llm_model_max_async = 16,
-  key_string_value_json_storage_cls = <class 'lightrag.storage.JsonKVStorage'>,
-  vector_db_storage_cls = <class 'lightrag.storage.NanoVectorDBStorage'>,
-  vector_db_storage_cls_kwargs = {},
-  graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
-  enable_llm_cache = True,
-  addon_params = {},
-  convert_response_to_json_func = <function convert_response_to_json at 0x000001C5BF2CBEC0>
-
-2024-10-24 15:45:48,650 - lightrag - INFO - Load KV full_docs with 0 data
-2024-10-24 15:45:48,650 - lightrag - INFO - Load KV text_chunks with 0 data
-2024-10-24 15:45:48,651 - lightrag - INFO - Load KV llm_response_cache with 0 data
-2024-10-24 15:45:48,653 - lightrag - INFO - Loaded graph from ./dickens\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
-2024-10-24 15:46:20,752 - lightrag - INFO - Logger initialized for working directory: ./dickens
-2024-10-24 15:46:20,753 - lightrag - DEBUG - LightRAG init with param:
-  working_dir = ./dickens,
-  chunk_token_size = 1200,
-  chunk_overlap_token_size = 100,
-  tiktoken_model_name = gpt-4o-mini,
-  entity_extract_max_gleaning = 1,
-  entity_summary_to_max_tokens = 500,
-  node_embedding_algorithm = node2vec,
-  node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
-  embedding_func = {'embedding_dim': 1024, 'max_token_size': 8192, 'func': <function <lambda> at 0x000001FCBB611B20>},
-  embedding_batch_num = 32,
-  embedding_func_max_async = 16,
-  llm_model_func = <function llm_model_func at 0x000001FC9B690540>,
-  llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
-  llm_model_max_token_size = 32768,
-  llm_model_max_async = 16,
-  key_string_value_json_storage_cls = <class 'lightrag.storage.JsonKVStorage'>,
-  vector_db_storage_cls = <class 'lightrag.storage.NanoVectorDBStorage'>,
-  vector_db_storage_cls_kwargs = {},
-  graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
-  enable_llm_cache = True,
-  addon_params = {},
-  convert_response_to_json_func = <function convert_response_to_json at 0x000001FCBEABBEC0>
-
-2024-10-24 15:46:20,754 - lightrag - INFO - Load KV full_docs with 0 data
-2024-10-24 15:46:20,754 - lightrag - INFO - Load KV text_chunks with 0 data
-2024-10-24 15:46:20,755 - lightrag - INFO - Load KV llm_response_cache with 0 data
-2024-10-24 15:46:20,757 - lightrag - INFO - Loaded graph from ./dickens\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
-2024-10-24 15:46:20,759 - lightrag - INFO - Creating a new event loop in a sub-thread.
-2024-10-24 15:46:20,763 - lightrag - INFO - [New Docs] inserting 1 docs
-2024-10-24 15:46:21,232 - lightrag - INFO - [New Chunks] inserting 1 chunks
-2024-10-24 15:46:21,232 - lightrag - INFO - Inserting 1 vectors to chunks
-2024-10-24 15:46:32,877 - lightrag - INFO - [Entity Extraction]...
-2024-10-24 15:47:26,589 - lightrag - INFO - Inserting 9 vectors to entities
-2024-10-24 15:47:33,993 - lightrag - INFO - Inserting 8 vectors to relationships
-2024-10-24 15:47:41,765 - lightrag - INFO - Writing graph with 9 nodes, 8 edges
+2024-10-24 16:21:52,069 - lightrag - INFO - Load KV full_docs with 0 data
+2024-10-24 16:21:52,070 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-10-24 16:21:52,070 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-10-24 16:21:52,072 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:21:52,075 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:21:52,541 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-24 16:21:52,541 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-24 16:22:10,800 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:24:16,395 - lightrag - INFO - Inserting 15 vectors to entities
+2024-10-24 16:24:33,016 - lightrag - INFO - Inserting 13 vectors to relationships
+2024-10-24 16:24:50,657 - lightrag - INFO - Writing graph with 16 nodes, 13 edges
+2024-10-24 16:24:50,665 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:24:50,670 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:24:50,672 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:24:50,672 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:24:58,985 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:26:13,126 - lightrag - INFO - Inserting 11 vectors to entities
+2024-10-24 16:26:31,750 - lightrag - INFO - Inserting 10 vectors to relationships
+2024-10-24 16:26:41,199 - lightrag - INFO - Writing graph with 26 nodes, 23 edges
+2024-10-24 16:26:41,207 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:26:41,211 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:26:41,213 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:26:41,213 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:26:48,693 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:28:16,261 - lightrag - INFO - Inserting 13 vectors to entities
+2024-10-24 16:29:00,012 - lightrag - INFO - Inserting 12 vectors to relationships
+2024-10-24 16:29:26,623 - lightrag - INFO - Writing graph with 37 nodes, 34 edges
+2024-10-24 16:29:26,639 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:29:26,648 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:29:26,651 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:29:26,651 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:29:42,905 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:31:01,705 - lightrag - INFO - Inserting 9 vectors to entities
+2024-10-24 16:31:10,003 - lightrag - INFO - Inserting 9 vectors to relationships
+2024-10-24 16:31:19,444 - lightrag - INFO - Writing graph with 47 nodes, 43 edges
+2024-10-24 16:31:19,454 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:31:19,458 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:31:19,460 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:31:19,461 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:31:26,162 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:32:25,597 - lightrag - INFO - Inserting 9 vectors to entities
+2024-10-24 16:32:54,478 - lightrag - INFO - Inserting 7 vectors to relationships
+2024-10-24 16:33:05,778 - lightrag - INFO - Writing graph with 55 nodes, 50 edges
+2024-10-24 16:33:05,795 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:33:05,803 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:33:05,805 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:33:05,806 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:33:16,138 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:35:20,701 - lightrag - INFO - Inserting 33 vectors to entities
+2024-10-24 16:35:59,291 - lightrag - INFO - Inserting 10 vectors to relationships
+2024-10-24 16:36:09,780 - lightrag - INFO - Writing graph with 87 nodes, 60 edges
+2024-10-24 16:36:09,794 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:36:09,800 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:36:09,802 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:36:09,803 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:36:18,622 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:37:10,372 - lightrag - INFO - Inserting 5 vectors to entities
+2024-10-24 16:37:34,744 - lightrag - INFO - Inserting 6 vectors to relationships
+2024-10-24 16:37:41,408 - lightrag - INFO - Writing graph with 91 nodes, 66 edges
+2024-10-24 16:37:41,421 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:37:41,425 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:37:41,428 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:37:41,428 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:37:47,998 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:39:03,260 - lightrag - INFO - Inserting 15 vectors to entities
+2024-10-24 16:40:02,077 - lightrag - INFO - Inserting 9 vectors to relationships
+2024-10-24 16:40:08,755 - lightrag - INFO - Writing graph with 104 nodes, 75 edges
+2024-10-24 16:40:08,766 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:40:08,770 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:40:08,772 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:40:08,772 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:40:13,950 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:41:41,232 - lightrag - INFO - Inserting 14 vectors to entities
+2024-10-24 16:42:51,917 - lightrag - INFO - Inserting 13 vectors to relationships
+2024-10-24 16:43:01,786 - lightrag - INFO - Writing graph with 116 nodes, 88 edges
+2024-10-24 16:43:01,800 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:43:01,804 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:43:01,808 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:43:01,808 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:43:09,246 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:43:56,954 - lightrag - INFO - Inserting 6 vectors to entities
+2024-10-24 16:44:26,531 - lightrag - INFO - Inserting 5 vectors to relationships
+2024-10-24 16:44:35,350 - lightrag - INFO - Writing graph with 119 nodes, 92 edges
+2024-10-24 16:44:35,368 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:44:35,373 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:44:35,376 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:44:35,377 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:44:45,517 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:45:25,757 - lightrag - INFO - Inserting 4 vectors to entities
+2024-10-24 16:45:58,299 - lightrag - INFO - Inserting 3 vectors to relationships
+2024-10-24 16:46:06,103 - lightrag - INFO - Writing graph with 120 nodes, 93 edges
+2024-10-24 16:46:06,116 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:46:06,122 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:46:06,127 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:46:06,128 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:46:13,827 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:47:35,946 - lightrag - INFO - Inserting 11 vectors to entities
+2024-10-24 16:48:53,642 - lightrag - INFO - Inserting 10 vectors to relationships
+2024-10-24 16:49:07,654 - lightrag - INFO - Writing graph with 136 nodes, 101 edges
+2024-10-24 16:49:07,679 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:49:07,688 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:49:07,690 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:49:07,691 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:49:18,595 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:50:24,022 - lightrag - INFO - Inserting 10 vectors to entities
+2024-10-24 16:50:54,620 - lightrag - INFO - Inserting 9 vectors to relationships
+2024-10-24 16:51:04,161 - lightrag - INFO - Writing graph with 140 nodes, 110 edges
+2024-10-24 16:51:04,177 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:51:04,182 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:51:04,186 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:51:04,186 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:51:12,015 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:53:14,082 - lightrag - INFO - Inserting 24 vectors to entities
+2024-10-24 16:53:28,103 - lightrag - INFO - Inserting 25 vectors to relationships
+2024-10-24 16:53:50,280 - lightrag - INFO - Writing graph with 178 nodes, 135 edges
+2024-10-24 16:53:50,299 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-24 16:53:50,304 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-24 16:53:50,307 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-24 16:53:50,307 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-24 16:53:58,604 - lightrag - INFO - [Entity Extraction]...
+2024-10-24 16:56:01,985 - lightrag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2024-10-24 16:56:01,985 - lightrag - WARNING - No new entities and relationships found
+2024-10-24 16:56:02,011 - lightrag - INFO - Writing graph with 220 nodes, 135 edges
